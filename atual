@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * @brief Simula o movimento das peças de xadrez usando diferentes estruturas de repetição.
+ *Simula o movimento das peças de xadrez usando diferentes estruturas de repetição.
  *
  * O programa simula o movimento da Torre, Bispo e Rainha, imprimindo a direção
  * do movimento a cada casa percorrida, conforme as regras do desafio.
