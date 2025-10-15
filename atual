@@ -12,7 +12,7 @@ int main() {
     printf("Movimento: %d casas para a Direita\n", casas_torre);
 
     // O laço 'for' é ideal para repetições com número fixo de iterações.
-    // O loop começa em 1 e vai até casas_torre (inclusive).
+    // O loop começa em 1 e vai até casas_torre.
     for (int i = 1; i <= casas_torre; i++) {
         // Imprime a direção do movimento a cada casa percorrida
         printf("Casa %d: Direita\n", i);
@@ -32,7 +32,7 @@ int main() {
     printf("--- Simulação do Movimento do Bispo ---\n");
     printf("Movimento: %d casas na diagonal (Cima, Direita)\n", casas_bispo);
 
-    // O laço 'while' é ideal quando a condição de parada é verificada no início.
+   
     // O loop continua enquanto o contador_bispo for menor que casas_bispo.
     while (contador_bispo < casas_bispo) {
         // Incrementa o contador para representar o movimento de uma casa
